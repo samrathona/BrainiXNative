@@ -1,7 +1,6 @@
-// App.tsx
 import React from 'react';
-import CourseCatalog from './screens/CourseCatalog';
+import AppNavigator from './navigation/AppNavigator';
 
 export default function App() {
-  return <CourseCatalog />;
+  return <AppNavigator />;
 }
